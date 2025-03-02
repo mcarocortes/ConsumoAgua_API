@@ -478,5 +478,6 @@ python app.py
 ## 9. Acceder a Base de datos:
 
 **Comprobar Pulsos enviados**:
+
   ![Esquema](/images/2.png)
 
