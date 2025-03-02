@@ -80,7 +80,8 @@ def send_data_to_flask(pulse, ip, client_id):
     try:
         response = requests.post(url, json=data)
         if response.status_code == 200:
-            print("Datos enviados correctamente:", data)
+            print("Datos enviados correctamente: ip={}, client_id={}, tiempo={}, medida={}".format(
+    data["ip"], data["client_id"], data["tiempo"], data["medida"]))
         else:
             print("Error al enviar datos. Código:", response.status_code)
     except Exception as e:
