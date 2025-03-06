@@ -1,6 +1,6 @@
 # Simulación de Contadores de Agua
 
-El objetivo de esta práctica es implementar un generador de pulsos de agua basado en un código de distribución de agua utilizando máquinas virtuales, Python, CRON, SQL Server y Flask. A continuación, se describen los componentes y su configuración.
+El objetivo de esta práctica es implementar un generador de pulsos de agua basado en un código de distribución de agua utilizando máquinas virtuales, Python, CRON, SQL Server y Flask. A continuación, se describen los componentes y su configuración. En la realidad "ideal" este proyecto compone los conceptos más básico para el desarrollo de este proyecto, dentro de la realidad, todo debe gestionarse en diferentes contenedores.
 
 ![Esquema](/images/1.png)
 
